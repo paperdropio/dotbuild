@@ -12,6 +12,9 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": ["dotnet", "build", "cli"],
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.0",
