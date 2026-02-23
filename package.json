@@ -1,6 +1,6 @@
 {
   "name": "dotbuild",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cross-platform CLI utility for managing dotnet project workflows",
   "type": "module",
   "bin": {
