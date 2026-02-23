@@ -1,0 +1,20 @@
+{
+  "name": "dotbuild",
+  "version": "0.1.0",
+  "description": "A cross-platform CLI utility for managing dotnet project workflows",
+  "type": "module",
+  "bin": {
+    "dotbuild": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["dotnet", "build", "cli"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
